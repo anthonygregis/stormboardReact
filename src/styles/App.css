@@ -1,38 +1,80 @@
-.App {
+main {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input.is-rounded {
+  max-width: 40%;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  margin-top: 10rem;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#meetingName {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#taskInput {
+  max-width: 40%;
+  min-width: 20%;
+  margin: auto;
+  min-height: 5rem;
+}
+
+#addButton {
+  margin: 1rem;
+}
+
+.message {
+  max-width: 40%;
+  min-width: 20%;
+  margin: auto;
+  min-height: 5rem;
+  text-align: left;
+}
+
+a {
+  display: block;
+  text-align: right;
+}
+
+#commentForm {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+#commentInput {
+  text-align: left;
+  max-width: 87%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtitle.is-4 {
+  margin-bottom: 0.4rem;
+}
+
+#comment {
+  margin-left: 1rem;
+}
+
+#voteDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  position: relative;
+}
+
+#voteButton {
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#voteCount {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
 }
